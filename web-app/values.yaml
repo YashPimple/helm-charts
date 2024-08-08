@@ -1,0 +1,12 @@
+appName: myhelmapp
+
+namespace: default
+
+configMap:
+  name: configmapv1
+  data:
+    custom_header: "Customized with ConfigMap"
+
+image:
+  name: devopsjourney1/mywebapp
+  tag: latest
