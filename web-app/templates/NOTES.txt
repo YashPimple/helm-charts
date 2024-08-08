@@ -1,0 +1,2 @@
+You have deployed an helm chart 
+kubectl port-forward service/{{ .Values.appName }} 9090:80 --namespace {{ .Values.namespace}}

@@ -1,0 +1,6 @@
+namespace: dev
+
+configMap:
+  name: configmapv1
+  data:
+    custom_header: "helm deployment using development branch"
